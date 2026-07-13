@@ -2,7 +2,7 @@
 
 ## Overview
 
-Config Checker is a lightweight Rust CLI tool that was derived from Securely Scoped During development, portions of the scanning engine were separated into a command-line prototype (Config Checker RS). This allowed rapid iteration on directory traversal and rule validation before integrating the functionality into the desktop application..
+Config Checker is a lightweight Rust CLI tool that was derived from Securely Scoped During development, portions of the scanning engine were separated into a command-line prototype (Config Checker RS). This allowed rapid iteration on directory traversal and rule validation before integrating the functionality into the desktop application.
 
 It’s designed to be fast, simple, and useful during development or system reviews.
 
@@ -21,9 +21,7 @@ It’s designed to be fast, simple, and useful during development or system revi
 
 ## Why I Built This
 
-Manually reviewing configuration files for secrets or insecure settings is slow and inconsistent.
-
-I built this tool to quickly scan a system and surface potential risks early, making the setup and review process more efficient.
+This tool is intetened to test iteration on directory traversal and rule validation before integrating the functionality into the desktop application Securely Scoped
 
 ## Usage
 
