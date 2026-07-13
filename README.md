@@ -2,7 +2,7 @@
 
 ## Overview
 
-Config Checker is a lightweight Rust CLI tool that scans files and directories for potential security risks such as hardcoded secrets and unsafe configurations.
+Config Checker is a lightweight Rust CLI tool that was derived from Securely Scoped During development, portions of the scanning engine were separated into a command-line prototype (Config Checker RS). This allowed rapid iteration on directory traversal and rule validation before integrating the functionality into the desktop application..
 
 It’s designed to be fast, simple, and useful during development or system reviews.
 
